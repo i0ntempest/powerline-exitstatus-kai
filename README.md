@@ -60,7 +60,8 @@ If you want to show a status rather than exit codes, you can enable by setting `
 }
 ```
 
-To become even more simplistic, set `style` to `color` and only a colored block will be shown. Note you'll need to change bg color in your colorscheme for this to work, by default both success and fail are gray.<br>Any value other than these three mentioned makes it defaults to `code`.
+To become even more simplistic, set `style` to `color` and only a colored block will be shown. Note you'll need to change bg color in your colorscheme for this to work, by default both success and fail are gray.<br>
+Any value other than these three mentioned will cause an error.
 
 ## License
 Licensed under [the MIT License][3].
