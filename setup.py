@@ -3,15 +3,16 @@
 from setuptools import setup
 
 setup(
-    name         = 'powerline-exitstatus',
+    name         = 'powerline-exitstatus-kai',
     description  = 'A Powerline segment for showing the status of Exit status',
-    version      = '1.1.0',
-    keywords     = 'powerline exit status prompt',
+    version      = '1.2.0',
+    keywords     = ['powerline exit status prompt','powerline','shell','console'],
     license      = 'MIT',
-    author       = 'shimtom',
-    author_email = 'shimtom1230@gmail.com',
-    url          = 'https://github.com/shimtom/powerline-exitstatus',
-    packages     = ['powerline_exitstatus'],
+    author       = 'i0ntempest',
+    author_email = 'szf1234@me.com',
+    url          = 'https://github.com/i0ntempest/powerline-exitstatus-kai',
+    download_url = 
+    packages     = ['powerline_exitstatus_kai'],
     install_requires = ['powerline-status'],
     classifiers  = [
         'Environment :: Console',
